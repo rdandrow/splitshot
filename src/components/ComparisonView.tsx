@@ -18,7 +18,7 @@ export function ComparisonView() {
   if (!hasBothImages) return null
 
   return (
-    <section className="flex flex-col items-center gap-3">
+    <section className="mx-auto flex flex-col items-center gap-3">
       <label className="flex items-center gap-2 text-sm text-neutral-700">
         Normalization
         <select
